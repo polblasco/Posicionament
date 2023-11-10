@@ -1,0 +1,1167 @@
+/*Pagina Index*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+header {
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    color: rgb(236, 235, 235);
+    z-index: 1;
+}
+nav {
+    color: white;
+    background-color: black;
+    position: sticky;
+    padding-bottom: 8px;
+}
+.enlace {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.enlace1 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+.enlace2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 100px;
+    color: white;
+}
+.enlace3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+main {
+    padding: 150px;
+    margin: 0px;
+}
+section {
+    background-color: rgb(236, 235, 235);
+    margin: 0px;
+    padding: 10px;
+    scroll-margin-top: 110px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+.a-text {
+    color: black;
+    
+}
+#seccion1 {
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    scroll-margin-top: 115px;
+}
+#seccion2 {
+    padding: 30px;
+    margin-bottom: 50px;
+    scroll-margin-top: 109px;
+    position:relative ;
+}
+#seccion3 {
+    padding: 30px;
+    margin-bottom: 50px;
+    scroll-margin-top: 0px;
+    position:relative ;
+    scroll-margin-top: 200px;
+}
+.aviso {
+    background-color: rgb(255, 35, 35); /* Fondo amarillo */
+    color: black;
+    text-align: center;
+    border: 2px solid #a00000;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+footer {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: rgb(2, 1, 39);
+    height: 30px;
+    width: 100%;
+    font-size: large;
+}
+
+/*Pagina conjunto de chandales hombre*/
+.listhombre {
+    color: black;
+    transition: transform 0.3s;
+}
+.listhombre:hover {
+    transform: scale(1.03);
+}
+.listhombres {
+    color: black;
+}
+.sectconjuntos {
+    width: 90%;
+    float: right;
+    background-color: rgba(255, 0, 0, 0.315);
+    text-align: center;
+    margin-right: -70px;
+    margin-left: 10px;
+}
+.filtrosizq {
+    float: left;
+    margin-left: -120px;
+}
+.nombcat {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: black;
+}
+.filtrnomb {
+    color: black;
+}
+.categorias {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-indent: 20px;
+    color: black;
+}
+#cambio {
+    margin-top: 5px;
+    padding-left: 60px;
+    color: black;
+}
+hr {
+    color: black;
+    border: 1px solid;
+}
+table {
+    margin: 0px;
+    width: 100%;
+}
+#fila1 {
+    align-content: center;
+}
+.tennispro1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#tennispro {
+    width: 100px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texttennispro {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.earmani2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#earmani {
+    width: 100px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textearmani {
+    margin-top: 0px;
+    color: black;
+}
+.cruyff1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#cruyff {
+    width: 200px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textcruyff {
+    margin-top: 0px;
+    color: black;
+}
+.lacoste1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#lacoste {
+    width: 200px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textlacoste {
+    margin-top: 0px;
+    color: black;
+}
+.hoxton1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#hoxton {
+    width: 100px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texthoxton {
+    margin-top: 0px;
+    color: black;
+}
+.gregory1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#gregory {
+    width: 200px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textgregory {
+    margin-top: 0px;
+    color: black;
+}
+.enlaceshom {
+    color: black;
+    transition: transform 0.3s;
+}
+.enlaceshom:hover {
+    transform: scale(1.03);
+}
+.listhombres {
+    color: black;
+}
+.foter {
+    bottom: 0px;
+    position: fixed;
+}
+
+/*Pagina de camisetas hombres*/
+.plein1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#plein {
+    width: 200px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textplein {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.moncler1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#moncler {
+    width: 200px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textmoncler {
+    margin-top: 0px;
+    color: black;
+}
+.jordan1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#jordan {
+    width: 200px;
+    height: 220px;
+    margin-left: 0px;
+}
+#textjordan {
+    margin-top: 0px;
+    color: black;
+}
+.adidas1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#adidas {
+    width: 200px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textadidas {
+    margin-top: 0px;
+    color: black;
+}
+.moschino1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#moschino {
+    width: 200px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textmoschino {
+    margin-top: 0px;
+    color: black;
+}
+.siksilk1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#siksilk {
+    width: 210px;
+    height: 220px;
+    margin-left: 0px;
+}
+#textsiksilk {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina de pantalones hombres*/
+.cruyff1pant {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#cruyffpant {
+    width: 100px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textcruyffpant {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.iconpant1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#iconpant {
+    width: 180px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texticonpant {
+    margin-top: 0px;
+    color: black;
+}
+.hoodrichpant1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#hoodrichpant {
+    width: 160px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texthoodrichpant {
+    margin-top: 0px;
+    color: black;
+}
+.tech1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#tech {
+    width: 130px;
+    height: 230px;
+    margin-left: 0px;
+}
+#texttech {
+    margin-top: 0px;
+    color: black;
+}
+.lacostepant1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#lacostepant {
+    width: 130px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textlacostepant {
+    margin-top: 0px;
+    color: black;
+}
+.cruyffpant2 {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#cruyff2pant {
+    width: 130px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textcruyff2pant {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina sudaderas hombre*/
+.cruyffsud1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#cruyffsud {
+    width: 210px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textcruyffsud {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.earmanisud1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#earmanisud {
+    width: 210px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textearmanisud {
+    margin-top: 0px;
+    color: black;
+}
+.moschinosud1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#moschinosud {
+    width: 210px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textmoschinosud {
+    margin-top: 0px;
+    color: black;
+}
+.iconsud1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#iconsud {
+    width: 200px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texticonsud {
+    margin-top: 0px;
+    color: black;
+}
+.pleinsud1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#pleinsud {
+    width: 210px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textpleinsud {
+    margin-top: 0px;
+    color: black;
+}
+.trapstarsud1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#trapstarsud {
+    width: 230px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texttrapstarsud {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina ropa interior hombre*/
+.ckint1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#ckint {
+    width: 180px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textckint {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.pleinint1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#pleinint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textpleinint {
+    margin-top: 0px;
+    color: black;
+}
+.earmaniint1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#earmaniint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textearmaniint {
+    margin-top: 0px;
+    color: black;
+}
+.versaceint1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#versaceint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textversaceint {
+    margin-top: 0px;
+    color: black;
+}
+.iconint1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#iconint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#texticonint {
+    margin-top: 0px;
+    color: black;
+}
+.hoodrichint1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#hoodrichint {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+#texthoodrichint {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina vestidos mujeres*/
+.guessvest1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#guessvest {
+    width: 160px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textguessvest {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.fendivest1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#fendivest {
+    width: 150px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textfendivest {
+    margin-top: 0px;
+    color: black;
+}
+.tommyvest1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#tommyvest {
+    width: 160px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texttommyvest {
+    margin-top: 0px;
+    color: black;
+}
+.ckvest1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#ckvest {
+    width: 140px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textckvest {
+    margin-top: 0px;
+    color: black;
+}
+.mkorsvest1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#mkorsvest {
+    width: 160px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textmkorsvest {
+    margin-top: 0px;
+    color: black;
+}
+.pinkovest1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#pinkovest {
+    width: 160px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textpinkovest {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina de camisetas mujeres*/
+.guesscam1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#guesscam {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textguesscam {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.earmanicam1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#earmanicam {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textearmanicam {
+    margin-top: 0px;
+    color: black;
+}
+.pradacam1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#pradacam {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textpradacam {
+    margin-top: 0px;
+    color: black;
+}
+.fendicam1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#fendicam {
+    width: 210px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textfendicam {
+    margin-top: 0px;
+    color: black;
+}
+.ckcam1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#ckcam {
+    width: 200px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textckcam {
+    margin-top: 0px;
+    color: black;
+}
+.dgcam1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#dgcam {
+    width: 190px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textdgcam {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina de pantalones mujeres*/
+.jcpant1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#jcpant {
+    width: 130px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textjcpant {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.guesspant1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#guesspant {
+    width: 115px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textguesspant {
+    margin-top: 0px;
+    color: black;
+}
+.eapant1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#eapant {
+    width: 120px;
+    height: 250px;
+    margin-left: 0px;
+}
+#texteapant {
+    margin-top: 0px;
+    color: black;
+}
+.ckpant1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#ckpant {
+    width: 120px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textckpant {
+    margin-top: 0px;
+    color: black;
+}
+.nikepant1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#nikepant {
+    width: 130px;
+    height: 250px;
+    margin-left: 0px;
+}
+#textnikepant {
+    margin-top: 0px;
+    color: black;
+}
+.guespant1 {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#guespant {
+    width: 130px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textguespant {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina sudaderas mujeres*/
+.cksud1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#cksud {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textcksud {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.guesssud1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#guesssud {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textguesssud {
+    margin-top: 0px;
+    color: black;
+}
+.guessud1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#guessud {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textguessud {
+    margin-top: 0px;
+    color: black;
+}
+.siksilksud1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#siksilksud {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textsiksilksud {
+    margin-top: 0px;
+    color: black;
+}
+.guesud1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#guesud {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textguesud {
+    margin-top: 0px;
+    color: black;
+}
+.earmanisu2 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#earmanisud3 {
+    width: 180px;
+    height: 230px;
+    margin-left: 0px;
+}
+#textearmanisud3 {
+    margin-top: 0px;
+    color: black;
+}
+
+/*Pagina ropa interior mujeres*/
+.eaint1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#eaint {
+    width: 180px;
+    height: 200px;
+    margin-left: 0px;
+}
+#texteaint {
+    margin-top: 0px;
+    color: black;
+}
+.precio {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.ckint2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#ckint3 {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textckint3 {
+    margin-top: 0px;
+    color: black;
+}
+.vsint1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#vsint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textvsint {
+    margin-top: 0px;
+    color: black;
+}
+.hbint1 {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#hbint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#texthbint {
+    margin-top: 0px;
+    color: black;
+}
+.ckbint1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#ckbint {
+    width: 230px;
+    height: 200px;
+    margin-left: 0px;
+}
+#textckbint {
+    margin-top: 0px;
+    color: black;
+}
+.hbtint1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 30px;
+}
+#hbtint {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+#texthbtint {
+    margin-top: 0px;
+    color: black;
+}
